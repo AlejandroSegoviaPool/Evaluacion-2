@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(10, 99, 10);
+}
+
+img{
+    height: 250px;
+    width: 165px;
+
+    position: relative;
+    left: 140px;
+    margin-left: -140px;
+}
+
+#jugador, #computadora{
+    min-height: 330px;
+}
+
+#ganador{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 30px;
+    background-color: aquamarine;
+    color: white;
+    height: 180px;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0;
+    line-height: 180px;
+}
+
+.hidden{
+    display: none;
+}
